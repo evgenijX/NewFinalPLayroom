@@ -5,6 +5,7 @@
   <Test2 />
   <Test1 />
   <Test2 />
+  <Contact/>
 </v-app>
 </template>
 
@@ -12,9 +13,10 @@
 import Landing from "@/components/Groups/Group1/Landing";
 import Test1 from "@/components/Groups/Group1/Test1";
 import Test2 from "@/components/Groups/Group1/Test2";
+import Contact from "@/components/Home/Contact";
 export default {
   name: "Group2-3",
-  components: { Test2, Test1, Landing }
+  components: { Contact, Test2, Test1, Landing }
 };
 </script>
 
